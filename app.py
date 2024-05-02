@@ -12,10 +12,6 @@ def load_data():
     df_reviews = pd.read_parquet(r'..\DataParquet\\CleanReviews.parquet')
     return df_steam_games,df_australian_items_ids,df_australian_items_playtime,df_reviews
 
-@app.get('/')
-def index():
-    return {'Proyecto individual de DataScience para Henry, by JL'}
-
 @app.get('/PlayTimeGenre/{genero}')
 def PlayTimeGenre(genero: str):
     df_steam_games,df_australian_items_ids,df_australian_items_playtime,df_reviews = load_data()
