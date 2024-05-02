@@ -157,7 +157,7 @@ def UsersRecommend(anio: int):
     for i in id_game:
         cont+= 1
         name = df_juego_año[df_juego_año['id'] == i]
-        titulos.append(f'Puesto {cont}: {name.iloc[0]['title']}')
+        titulos.append(f'Puesto {cont} : {name.iloc[0]['title']}')
     
     return {titulos}
 
@@ -203,7 +203,7 @@ def UsersRecommend(anio):
         name = df_juego_año[df_juego_año['id'] == i]
         titulos.append(f'Puesto {cont}: {name.iloc[0]['title']}')
     
-    return titulos
+    return {titulos}
 
 @app.get('/sentiment_analysis/{anio}')
 def sentiment_analysis(anio : int):
