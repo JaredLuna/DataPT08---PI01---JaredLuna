@@ -1,0 +1,302 @@
+ID,review,Sentiment
+1,"Stunning graphics, immersive gameplay.",2
+2,"Compelling story, highly recommended.",2
+3,"Intuitive controls, enjoyable experience.",2
+4,"Virtually bug-free, incredibly polished.",2
+5,Engaging from start to finish.,2
+6,"Excellent optimization, smooth performance.",2
+7,Fresh and innovative gameplay.,2
+8,"Well-balanced, highly satisfying.",2
+9,Exciting from the get-go.,2
+10,"Exceeded expectations, unforgettable.",2
+11,"Polished mechanics, masterfully crafted.",2
+12,"Engaging dialogue, emotionally resonant.",2
+13,"Gorgeous graphics, visually stunning.",2
+14,"Compelling narrative, rich storytelling.",2
+15,"Immersive world-building, captivating.",2
+16,"Supportive community, positive atmosphere.",2
+17,"Intelligent AI, challenging opponents.",2
+18,"Well-developed characters, memorable.",2
+19,Innovative gameplay mechanics.,2
+20,"Enchanting soundtrack, atmospheric.",2
+21,"Ingenious level design, cleverly crafted.",2
+22,Clear and informative tutorial.,2
+23,"Satisfying conclusion, rewarding.",2
+24,"Diverse and varied, never dull.",2
+25,"Flawless performance, seamless.",2
+26,Perfect balance of challenge and fun.,2
+27,"Gripping plot, unpredictable twists.",2
+28,"Dynamic combat, satisfying.",2
+29,"User-friendly interface, intuitive.",2
+30,Memorable and impactful.,2
+31,Smooth progression system.,2
+32,"Abundant content, hours of fun.",2
+33,"Well-written dialogue, engaging.",2
+34,"Expansive exploration, freedom.",2
+35,"Thought-provoking puzzles, satisfying.",2
+36,"High replay value, addictive.",2
+37,"Charismatic personality, unforgettable.",2
+38,Powerful emotional resonance.,2
+39,"Immersive atmosphere, immersive.",2
+40,"Stunning visuals, breathtaking.",2
+41,"Seamless integration, cohesive.",2
+42,"Flawless performance, no issues.",2
+43,"Responsive controls, precise.",2
+44,"Epic length, worth every minute.",2
+45,"Constant updates, ongoing support.",2
+46,Brilliant execution of the concept.,2
+47,"Perfectly balanced, finely tuned.",2
+48,Attention to detail is exceptional.,2
+49,"Captivating gameplay, hard to put down.",2
+50,"Deep and meaningful story, emotionally gripping.",2
+51,"Intuitive controls, easy to learn.",2
+52,"Beautifully crafted world, immersive experience.",2
+53,Optimized for smooth performance.,2
+54,Unique and innovative mechanics.,2
+55,Rich and immersive narrative.,2
+56,Welcoming and supportive community.,2
+57,"Challenging AI, keeps you on your toes.",2
+58,Memorable and well-developed characters.,2
+59,Engaging gameplay mechanics.,2
+60,"Enthralling soundtrack, sets the mood.",2
+61,"Cleverly designed levels, rewarding exploration.",2
+62,"Informative tutorial, easy to follow.",2
+63,"Satisfying ending, leaves you wanting more.",2
+64,Varied and diverse gameplay experiences.,2
+65,"Seamless performance, no lag.",2
+66,"Balanced difficulty curve, challenging but fair.",2
+67,Twists and turns keep you guessing.,2
+68,"Exciting combat encounters, adrenaline-pumping.",2
+69,"Intuitive interface, easy to navigate.",2
+70,"Emotional journey, resonates deeply.",2
+71,"Immersive environments, feels alive.",2
+72,Visually stunning art direction.,2
+73,Smooth and polished gameplay.,2
+74,"Responsive controls, precise movements.",2
+75,"Extensive content, endless replayability.",2
+76,Deep and meaningful dialogue.,2
+77,"Expansive world to explore, full of secrets.",2
+78,"Challenging puzzles, satisfying to solve.",2
+79,"Addictive gameplay loop, hard to resist.",2
+80,"Memorable characters, each with their own story.",2
+81,"Atmospheric soundtrack, sets the tone perfectly.",2
+82,"Clever level design, keeps you engaged.",2
+83,"Comprehensive tutorial, covers all the basics.",2
+84,"Satisfying conclusion, ties up loose ends.",2
+85,"Vast open world, ripe for exploration.",2
+86,"Immersive storytelling, draws you in.",2
+87,"Stunning visuals, breathtaking landscapes.",2
+88,"Smooth performance, no hiccups.",2
+89,"Intuitive controls, feels natural.",2
+90,"Intriguing plot twists, keeps you guessing.",2
+91,"Adrenaline-fueled combat, intense battles.",2
+92,"Streamlined interface, easy to use.",2
+93,"Emotional depth, connects on a personal level.",2
+94,"Atmospheric environments, richly detailed.",2
+95,"Artistic direction, visually stunning.",2
+96,"Fluid gameplay, responsive mechanics.",2
+97,"Engaging progression system, rewards exploration.",2
+98,"Compelling narrative, drives the experience.",2
+99,"Captivating soundtrack, enhances immersion.",2
+100,"Endless possibilities, never gets old.",2
+101,"Bland graphics, dull gameplay.",0
+102,"Uninspired story, wouldn't recommend.",0
+103,"Confusing controls, terrible experience.",0
+104,"Bug-ridden mess, impossible to enjoy.",0
+105,"Monotonous, didn't even finish.",0
+106,"Poor optimization, not worth it.",0
+107,Repetitive and unoriginal.,0
+108,"Unbalanced, frustrating.",0
+109,Boring from the get-go.,0
+110,"Disappointing, expected more.",0
+111,"Doesn't meet expectations, failed.",0
+112,"Outdated mechanics, boring.",0
+113,"Forced dialogue, no emotion.",0
+114,"Dated graphics, embarrassing.",0
+115,"Incoherent, nonsensical story.",0
+116,"Toxic community, negative experience.",0
+117,"Terrible AI, dumb enemies.",0
+118,"Underdeveloped characters, forgettable.",0
+119,"Lacks innovation, more of the same.",0
+120,"Repetitive soundtrack, annoying.",0
+121,"Tedious level design, bad.",0
+122,"Confusing tutorial, steep learning curve.",0
+123,"Anticlimactic ending, disappointing.",0
+124,"Lack of variety, monotonous.",0
+125,"Poor performance, slow loading.",0
+126,"Lacks challenge, too easy.",0
+127,"Predictable plot, boring.",0
+128,"Unbalanced combat, unfair.",0
+129,"Non-intuitive interface, frustrating.",0
+130,"Clichéd, boring.",0
+131,"No sense of achievement, empty.",0
+132,"Constant glitches, unacceptable.",0
+133,"Broken progression system, poorly designed.",0
+134,"Insufficient content, short.",0
+135,"Poorly written dialogue, embarrassing.",0
+136,"Limited exploration, linear.",0
+137,"Repetitive puzzles, no challenge.",0
+138,"No replay value, one-time play.",0
+139,"Lacks personality, generic.",0
+140,"No emotional impact, bland.",0
+141,"Lacks atmosphere, flat.",0
+142,"Unpleasant graphics, unattractive.",0
+143,"Incohesive, disjointed elements.",0
+144,"Unstable performance, FPS issues.",0
+145,"Unresponsive controls, frustrating.",0
+146,"Short campaign, not worth the investment.",0
+147,"Lack of post-launch content, abandoned.",0
+148,"Interesting concept, poor execution.",0
+149,"Unbalanced, no tuning.",0
+150,"Lacks attention to detail, sloppy.",0
+151,"Buggy mess, unplayable.",0
+152,"Poorly optimized, constant crashes.",0
+153,Dull and uninspired gameplay.,0
+154,"Uninteresting story, forgettable characters.",0
+155,"Confusing controls, hard to master.",0
+156,"Glitchy graphics, immersion-breaking.",0
+157,"Repetitive gameplay, quickly gets boring.",0
+158,Frustrating difficulty spikes.,0
+159,"Lack of direction, unclear objectives.",0
+160,"Shallow mechanics, lacks depth.",0
+161,Unnecessary microtransactions.,0
+162,"Disjointed level design, lacks cohesion.",0
+163,"Empty open world, devoid of life.",0
+164,"Disappointing ending, unresolved plot points.",0
+165,"Uninspired art style, lacks creativity.",0
+166,"Clumsy user interface, unintuitive.",0
+167,Poorly balanced multiplayer.,0
+168,"Dated visuals, feels outdated.",0
+169,Unfulfilling progression system.,0
+170,"Disconnected narrative, lacks flow.",0
+171,"Unresponsive controls, laggy input.",0
+172,"Shallow gameplay loop, repetitive tasks.",0
+173,"Uninteresting side quests, filler content.",0
+174,"Lack of player agency, railroaded gameplay.",0
+175,"Confusing storyline, nonsensical plot twists.",0
+176,"Unskippable cutscenes, breaks immersion.",0
+177,"Lackluster sound design, forgettable soundtrack.",0
+178,Bland character customization options.,0
+179,"Grindy progression system, feels like a chore.",0
+180,Disappointing final boss battle.,0
+181,"Uninspired enemy design, lacks variety.",0
+182,"Clunky camera controls, disorienting.",0
+183,"Unrewarding exploration, nothing to discover.",0
+184,"Poorly designed boss encounters, frustrating.",0
+185,"Empty game world, lacks substance.",0
+186,"Shallow gameplay mechanics, lacks complexity.",0
+187,"Disappointing weapon selection, unbalanced.",0
+188,"Underwhelming upgrade system, no impact.",0
+189,"Lack of player feedback, feels detached.",0
+190,"Confusing level layout, gets lost easily.",0
+191,"Unintuitive puzzle solutions, frustratingly obtuse.",0
+192,"Decent graphics, average gameplay.",1
+193,"Okay story, nothing special.",1
+194,"Average controls, decent experience.",1
+195,"Some bugs, overall playable.",1
+196,"Not exciting, but finished it.",1
+197,"Average optimization, playable.",1
+198,"Decent, but lacks originality.",1
+199,"Balanced, but not outstanding.",1
+200,"Alright, nothing memorable.",1
+201,"Mediocre, met expectations.",1
+202,"Decent, but forgettable.",1
+203,"Standard mechanics, playable.",1
+204,"Neutral dialogue, lacks depth.",1
+205,"Standard graphics, functional.",1
+206,"Cohesive, but unremarkable.",1
+207,"Neutral community, no impact.",1
+208,"Average AI, not too challenging.",1
+209,"Standard characters, forgettable.",1
+210,"Some innovation, nothing new.",1
+211,"Background music, not intrusive.",1
+212,"Adequate level design, functional.",1
+213,"Clear tutorial, manageable learning curve.",1
+214,"Satisfying ending, nothing special.",1
+215,"Some variety, not too repetitive.",1
+216,"Average performance, acceptable.",1
+217,"Moderate challenge, balanced.",1
+218,"Predictable, but enjoyable.",1
+219,"Fair combat, no major issues.",1
+220,"Standard interface, user-friendly.",1
+221,"Not memorable, but not bad.",1
+222,Standard sense of achievement.,1
+223,"Occasional glitches, tolerable.",1
+224,Functional progression system.,1
+225,"Enough content, reasonable length.",1
+226,"Decent dialogue, not remarkable.",1
+227,"Moderate exploration, somewhat linear.",1
+228,"Puzzles are okay, not too difficult.",1
+229,"Some replay value, occasional play.",1
+230,"Neutral personality, not distinct.",1
+231,"Some emotional impact, moderate.",1
+232,"Neutral atmosphere, neither good nor bad.",1
+233,"Acceptable graphics, not impressive.",1
+234,"Some cohesion, but not seamless.",1
+235,"Stable performance, minor issues.",1
+236,"Responsive controls, mostly smooth.",1
+237,"Average length, worth a playthrough.",1
+238,Post-launch content is okay.,1
+239,Average execution of the concept.,1
+240,"Balanced, but could use adjustment.",1
+241,Attention to detail is sufficient.,1
+242,"Middle-of-the-road graphics, decent gameplay.",1
+243,"Story is passable, nothing remarkable.",1
+244,"Controls are adequate, nothing outstanding.",1
+245,"Encountered a few bugs, but playable.",1
+246,"Gameplay is average, but managed to finish it.",1
+247,"Optimization is okay, didn't have major issues.",1
+248,"Mechanics are standard, nothing groundbreaking.",1
+249,"Balance is decent, not too challenging.",1
+250,"Experience is average, didn't leave a lasting impression.",1
+251,"Neither good nor bad, just average.",1
+252,"Met expectations, but didn't exceed them.",1
+253,"Forgettable experience, but not terrible.",1
+254,"Mechanics are functional, but lack innovation.",1
+255,"Dialogue is neutral, didn't stand out.",1
+256,"Graphics are standard, served their purpose.",1
+257,"Community is neutral, didn't interact much.",1
+258,"AI is average, provided moderate challenge.",1
+259,"Characters are standard, didn't leave an impact.",1
+260,"Saw some innovation, but nothing revolutionary.",1
+261,"Music is okay, didn't detract from the experience.",1
+262,"Level design is adequate, served its purpose.",1
+263,"Tutorial is clear, got through it without issue.",1
+264,"Ending is satisfactory, tied up loose ends.",1
+265,"Some variety, but nothing too exciting.",1
+266,"Performance is average, encountered minor issues.",1
+267,"Challenge is moderate, struck a balance.",1
+268,"Combat is fair, no major complaints.",1
+269,"Interface is standard, easy to navigate.",1
+270,"Achievement is average, felt expected.",1
+271,"Glitches are occasional, but not game-breaking.",1
+272,"Progression system is functional, nothing special.",1
+273,"Content is sufficient, didn't feel lacking.",1
+274,"Dialogue is average, didn't leave a strong impression.",1
+275,"Exploration is moderate, offered some freedom.",1
+276,"Puzzles are average, not overly difficult.",1
+277,"Some replay value, might revisit occasionally.",1
+278,"Personality is neutral, didn't stand out.",1
+279,"Emotional impact is moderate, felt at times.",1
+280,"Atmosphere is neutral, neither immersive nor distracting.",1
+281,"Graphics are acceptable, didn't wow.",1
+282,"Cohesion is present, but not seamless.",1
+283,"Performance is stable, encountered minor hiccups.",1
+284,"Controls are responsive, generally smooth.",1
+285,"Length is average, felt appropriate.",1
+286,"Post-launch content is available, added some value.",1
+287,"Execution of the concept is average, nothing exceptional.",1
+288,"Balance is maintained, but room for improvement.",1
+289,"Attention to detail is adequate, could be better.",1
+290,neutral review,1
+291,neutral review,1
+292,neutral review,1
+293,neutral review,1
+294,neutral review,1
+295,neutral review,1
+,,
+,,
+,,
+,,
+,,
+,,
