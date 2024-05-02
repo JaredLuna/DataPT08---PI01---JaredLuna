@@ -162,9 +162,9 @@ def UsersRecommend(anio: int):
     return {titulos}
 
 @app.get('/UsersNotRecommend/{anio}')
-def UsersNotRecommend(anio: int):
+def UsersRecommend(anio):
     df_steam_games,df_australian_items_ids,df_australian_items_playtime,df_reviews = load_data()
-    
+
     anio = str(anio)
 
     #Extraemos los datos de los juegos para el año dado
@@ -179,10 +179,10 @@ def UsersNotRecommend(anio: int):
     df_recomendacion_juegos_año = df_reviews[df_reviews['Item_Id'].isin(Ids)]
 
     #Extraemos los juegos más recomendado (calificación de 2)
-    df_juegos_recomendados = df_recomendacion_juegos_año[df_recomendacion_juegos_año['sentiment_analysis'].isin([0])]
+    df_juegos_recomendados = df_recomendacion_juegos_año[df_recomendacion_juegos_año['sentiment_analysis'].isin([2 and 1])]
 
-    #Obtenemos el item id con un groupby
-    df_suma_por_id = df_juegos_recomendados.groupby('Item_Id')['sentiment_analysis'].count().reset_index()
+    #Obtenemos el jugador con más horas jugadas para el genero
+    df_suma_por_id = df_juegos_recomendados.groupby('Item_Id')['sentiment_analysis'].sum().reset_index()
     df_suma_por_id = df_suma_por_id.sort_values(by= 'sentiment_analysis', ascending= False)
 
     #Extraemos el juego y las horas:
@@ -202,8 +202,8 @@ def UsersNotRecommend(anio: int):
         cont+= 1
         name = df_juego_año[df_juego_año['id'] == i]
         titulos.append(f'Puesto {cont}: {name.iloc[0]['title']}')
-
-    return {titulos}
+    
+    return titulos
 
 @app.get('/sentiment_analysis/{anio}')
 def sentiment_analysis(anio : int):
