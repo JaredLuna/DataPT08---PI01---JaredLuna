@@ -6,15 +6,20 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
+@app.get('/')
+def index():
+    return {'Primer proyecto individual de DataScience para Henrey, by JL'}
+
 def load_data():
-    df_steam_games = pd.read_parquet(r'DataParquet/SteamGames.parquet')
-    df_australian_items_ids = pd.read_parquet(r'DataParquet/AustItems.parquet')
-    df_australian_items_playtime = pd.read_parquet(r'DataParquet/AustItemsExpand.parquet')
-    df_reviews = pd.read_parquet(r'DataParquet/CleanReviews.parquet')
+    df_steam_games = pd.read_parquet(r'./DataParquet/SteamGames.parquet')
+    df_australian_items_ids = pd.read_parquet(r'./DataParquet/AustItems.parquet')
+    df_australian_items_playtime = pd.read_parquet(r'./DataParquet/AustItemsExpand.parquet')
+    df_reviews = pd.read_parquet(r'./DataParquet/CleanReviews.parquet')
     return df_steam_games,df_australian_items_ids,df_australian_items_playtime,df_reviews
 
 @app.get('/PlayTimeGenre/{genero}')
 def PlayTimeGenre(genero: str):
+
     df_steam_games,df_australian_items_ids,df_australian_items_playtime,df_reviews = load_data()
 
     #Se nos va a dar una variables 'genero' a buscar
