@@ -10,7 +10,7 @@ def load_data():
     df_australian_items_ids = pd.read_parquet(r'..\DataParquet\\AustItems.parquet')
     df_australian_items_playtime = pd.read_parquet(r'..\DataParquet\\AustItemsExpand.parquet')
     df_reviews = pd.read_parquet(r'..\DataParquet\\CleanReviews.parquet')
-    return {df_steam_games,df_australian_items_ids,df_australian_items_playtime,df_reviews}
+    return df_steam_games,df_australian_items_ids,df_australian_items_playtime,df_reviews
 
 @app.get('/')
 def index():
@@ -201,7 +201,7 @@ def UsersRecommend(anio):
     for i in id_game:
         cont+= 1
         name = df_juego_año[df_juego_año['id'] == i]
-        titulos.append(f'Puesto {cont}: {name.iloc[0]['title']}')
+        titulos.append(f'Puesto {cont}: {name.iloc[0]["title"]}')
     
     return {titulos}
 
