@@ -201,7 +201,7 @@ def UsersRecommend(anio):
     for i in id_game:
         cont+= 1
         name = df_juego_año[df_juego_año['id'] == i]
-        titulos.append(f'Puesto {cont}: {name.iloc[0]["title"]}')
+        titulos.append('Puesto {}: {}'.format(cont, name.iloc[0]['title']))
     
     return {titulos}
 
