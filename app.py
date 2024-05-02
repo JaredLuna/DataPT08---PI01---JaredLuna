@@ -1,15 +1,16 @@
 from fastapi import FastAPI
 import pandas as pd
+import uvicorn
 from pydantic import BaseModel
 
 
 app = FastAPI()
 
 def load_data():
-    df_steam_games = pd.read_parquet(r'./DataParquet/SteamGames.parquet')
-    df_australian_items_ids = pd.read_parquet(r'./DataParquet/AustItems.parquet')
-    df_australian_items_playtime = pd.read_parquet(r'./DataParquet/AustItemsExpand.parquet')
-    df_reviews = pd.read_parquet(r'./DataParquet/CleanReviews.parquet')
+    df_steam_games = pd.read_parquet(r'DataParquet/SteamGames.parquet')
+    df_australian_items_ids = pd.read_parquet(r'DataParquet/AustItems.parquet')
+    df_australian_items_playtime = pd.read_parquet(r'DataParquet/AustItemsExpand.parquet')
+    df_reviews = pd.read_parquet(r'DataParquet/CleanReviews.parquet')
     return df_steam_games,df_australian_items_ids,df_australian_items_playtime,df_reviews
 
 @app.get('/PlayTimeGenre/{genero}')
@@ -243,3 +244,6 @@ def sentiment_analysis(anio : int):
             break
     
     return {respuesta}
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
