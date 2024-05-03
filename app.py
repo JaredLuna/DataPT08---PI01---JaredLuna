@@ -6,9 +6,9 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-@app.get('/')
-def index():
-    return {'Primer PI para Henry Data Science. By: JaredLuna'}
+#@app.get('/')
+#def index():
+#    return {'Primer PI para Henry Data Science. By: JaredLuna'}
 
 
 def load_data():
