@@ -5,11 +5,15 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
+@app.get('/')
+def index():
+    return {'Primer PI para Henry Data Science. By: JaredLuna'}
+
 def load_data():
-    df_steam_games = pd.read_parquet(r'./DataParquet/SteamGames.parquet')
-    df_australian_items_ids = pd.read_parquet(r'./DataParquet/AustItems.parquet')
-    df_australian_items_playtime = pd.read_parquet(r'./DataParquet/AustItemsExpand.parquet')
-    df_reviews = pd.read_parquet(r'./DataParquet/CleanReviews.parquet')
+    df_steam_games = pd.read_parquet('./DataParquet/SteamGames.parquet')
+    df_australian_items_ids = pd.read_parquet('./DataParquet/AustItems.parquet')
+    df_australian_items_playtime = pd.read_parquet('./DataParquet/AustItemsExpand.parquet')
+    df_reviews = pd.read_parquet('./DataParquet/CleanReviews.parquet')
     return df_steam_games,df_australian_items_ids,df_australian_items_playtime,df_reviews
 
 @app.get('/PlayTimeGenre/{genero}')
@@ -155,7 +159,7 @@ def UsersRecommend(anio: int):
         name = df_juego_año[df_juego_año['id'] == i]
         titulos.append('Puesto {}: {}'.format(cont, name.iloc[0]['title']))
     
-    return {titulos}
+    return {f'{titulos}'}
 
 @app.get('/UsersNotRecommend/{anio}')
 def UsersNotRecommend(anio: int):
@@ -199,7 +203,7 @@ def UsersNotRecommend(anio: int):
         name = df_juego_año[df_juego_año['id'] == i]
         titulos.append('Puesto {}: {}'.format(cont, name.iloc[0]['title']))
 
-    return {titulos}
+    return {f'{titulos}'}
 
 @app.get('/sentiment_analysis/{anio}')
 def sentiment_analysis(anio : int):
@@ -242,4 +246,4 @@ def sentiment_analysis(anio : int):
             respuesta.append(f'{i[0]} = {i[1]}')
             break
     
-    return {respuesta}
+    return {f'{respuesta}'}
