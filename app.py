@@ -1,14 +1,13 @@
 from fastapi import FastAPI
 import pandas as pd
-import uvicorn
 from pydantic import BaseModel
 
 
 app = FastAPI()
 
-#@app.get('/')
-#def index():
-#    return {'Primer PI para Henry Data Science. By: JaredLuna'}
+@app.get('/')
+def index():
+    return {'Primer PI para Henry Data Science. By: JaredLuna'}
 
 
 def load_data():
@@ -249,5 +248,3 @@ def sentiment_analysis(anio : int):
             respuesta.append(f'{i[0]} = {i[1]}')
             break
     return {f'{respuesta}'}
-
-
