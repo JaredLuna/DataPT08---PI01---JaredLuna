@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 import pandas as pd
+import uvicorn
 from pydantic import BaseModel
 
 
@@ -8,6 +9,7 @@ app = FastAPI()
 @app.get('/')
 def index():
     return {'Primer PI para Henry Data Science. By: JaredLuna'}
+
 
 def load_data():
     df_steam_games = pd.read_parquet('./DataParquet/SteamGames.parquet')
@@ -18,6 +20,7 @@ def load_data():
 
 @app.get('/PlayTimeGenre/{genero}')
 def PlayTimeGenre(genero: str):
+
     df_steam_games,df_australian_items_ids,df_australian_items_playtime,df_reviews = load_data()
 
     #Se nos va a dar una variables 'genero' a buscar
@@ -245,5 +248,6 @@ def sentiment_analysis(anio : int):
         for j in i:
             respuesta.append(f'{i[0]} = {i[1]}')
             break
-    
     return {f'{respuesta}'}
+
+
