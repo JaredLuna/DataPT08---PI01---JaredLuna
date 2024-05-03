@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 import pandas as pd
 from pydantic import BaseModel
+import pyarrow
 
 
 app = FastAPI()
@@ -8,7 +9,6 @@ app = FastAPI()
 @app.get('/')
 def index():
     return {'Primer PI para Henry Data Science. By: JaredLuna'}
-
 
 def load_data():
     df_steam_games = pd.read_parquet('./DataParquet/SteamGames.parquet')
@@ -117,7 +117,7 @@ def UserForGenre(genero: str):
 
         final.append(f'Año: {i}, Horas: {suma_horas/60}')
 
-    return {f'Usuario con más horas jugadas para el genero {genero}: {user}\n{final}'}
+    return {f'Usuario con más horas jugadas para el genero {genero}: {user} - {final}'}
 
 @app.get('/UsersRecommend/{anio}')
 def UsersRecommend(anio: int):
