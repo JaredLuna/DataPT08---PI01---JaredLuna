@@ -28,6 +28,7 @@ Posteriormente a tener todas nuestras reviews clasificadas nos centramos a desar
 - **def UsersRecommend(año : int )**: Devuelve el top 3 de juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos/neutrales)
 - **def UsersNotRecommend(año : int )**: Devuelve el top 3 de juegos MENOS recomendados por usuarios para el año dado. (reviews.recommend = False y comentarios negativos)
 - **def sentiment_analysis(año : int )**: Según el año de lanzamiento, se devuelve una lista con la cantidad de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento.
+
 Para el desarrollo de todas las funciones solamente utilizamos pandas, primeramente, para la lectura de los archivos parquet junto con pyarrow y fastparquet. Y luego de importar toda la información y su transformación solamente fue necesaria la utilización de pandas.
 La explicación de cada una de las funciones esta redactada en el jupyter notebook de “Funciones.ipynb”. No se ahondará más aquí en el readme, ya que se haría muy extensa la explicación.
 
